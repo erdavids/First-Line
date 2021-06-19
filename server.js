@@ -1,72 +1,50 @@
 var express = require('express');
 var { graphqlHTTP } = require('express-graphql');
 var { buildSchema } = require('graphql');
+
+const data = require('./lines.json');
  
 // Construct a schema, using GraphQL schema language
 var schema = buildSchema(`
-  input MessageInput {
-    content: String
-    author: String
-  }
- 
-  type Message {
-    id: ID!
-    content: String
-    author: String
+  type Line {
+    book: String
+    line: String
   }
  
   type Query {
-    getMessage(id: ID!): Message
-    getAll: String
+    getRandomLine: Line
+    getAll: [Line]
+    getIndex(index : Int!): Line
+    getBook( book : String!): Line
   }
- 
-  type Mutation {
-    createMessage(input: MessageInput): Message
-    updateMessage(id: ID!, input: MessageInput): Message
-  }
+
 `);
  
-// If Message had any complex fields, we'd put them on this object.
-class Message {
-  constructor(id, {content, author}) {
-    this.id = id;
-    this.content = content;
-    this.author = author;
+class Line {
+  constructor({book, line}) {
+    this.book= book;
+    this.line = line;
   }
 }
  
-// Maps username to content
-var fakeDatabase = {};
- 
 var root = {
   getAll: () => {
-    // var r = {}
-    // for (const key in fakeDatabase) {
-
-    // }
-    return JSON.stringify(fakeDatabase)
+    return data['lines']
   },
-  getMessage: ({id}) => {
-    if (!fakeDatabase[id]) {
-      throw new Error('no message exists with id ' + id);
+  getIndex: ({index}) => {
+    return new Line(data['lines'][index])
+  },
+  getRandomLine: () => {
+    return new Line(data['lines'][Math.floor(Math.random()*data['lines'].length)]);
+  },
+  getBook: ({book}) => {
+    for (const l in data['lines']) {
+      if (data['lines'][l].book == book) {
+        return new Line(data['lines'][l])
+      }
     }
-    return new Message(id, fakeDatabase[id]);
-  },
-  createMessage: ({input}) => {
-    // Create a random id for our "database".
-    var id = require('crypto').randomBytes(10).toString('hex');
- 
-    fakeDatabase[id] = input;
-    return new Message(id, input);
-  },
-  updateMessage: ({id, input}) => {
-    // if (!fakeDatabase[id]) {
-    //   throw new Error('no message exists with id ' + id);
-    // }
-    // This replaces all old data, but some apps might want partial update.
-    fakeDatabase[id] = input;
-    return new Message(id, input);
-  },
+    throw new Error('No entry for ' + book + ', please consider submitting a Pull Request to add it.');
+  }
 };
  
 var app = express();
@@ -77,5 +55,5 @@ app.use('/graphql', graphqlHTTP({
   graphiql: true,
 }));
 app.listen(process.env.PORT || 5000, () => {
-  console.log('Running a GraphQL API server at localhost:4000/graphql');
+  console.log('Running a GraphQL API server');
 });
