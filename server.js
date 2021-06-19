@@ -70,6 +70,7 @@ var root = {
 };
  
 var app = express();
+app.use(express.static("src"))
 app.use('/graphql', graphqlHTTP({
   schema: schema,
   rootValue: root,
