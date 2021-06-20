@@ -10,6 +10,228 @@
             "line": "I am an invisible man.",
             "author": "Ralph Ellison",
             "year": "1952"
+        },
+        {
+            "book": "Moby-Dick",
+            "line": "Call me Ishmael.",
+            "author": "Herman Melville", 
+            "year": "1851"
+        },
+        {
+            "book": "Gravity's Rainbow",
+            "line": "A screaming comes across the sky.",
+            "author": "Thomas Pynchon", 
+            "year": "1973"
+        },
+        {
+            "book": "A Tale of Two Cities",
+            "line": "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
+            "author": "Charles Dickens", 
+            "year": "1859"
+        },
+        {
+            "book": "The Good Soldier",
+            "line": "This is the saddest story I have ever heard.",
+            "author": "Ford Madox Ford", 
+            "year": "1915"
+        },
+        {
+            "book": "David Copperfield",
+            "line": "Whether I shall turn out to be the hero of my own life, or whether that station will be held by anybody else, these pages must show.",
+            "author": "Charles Dickens", 
+            "year": "1850"
+        },
+        {
+            "book": "City of Glass",
+            "line": "It was a wrong number that started it, the telephone ringing three times in the dead of night, and the voice on the other end asking for someone he was not.",
+            "author": "Paul Auster", 
+            "year": "1985"
+        },
+        {
+            "book": "The Stranger",
+            "line": "Mother died today.",
+            "author": "Albert Camus", 
+            "year": "1942"
+        },
+        {
+            "book": "Neuromancer",
+            "line": "The sky above the port was the color of television, tuned to a dead channel.",
+            "author": "William Gibson", 
+            "year": "1984"
+        },
+        {
+            "book": "Richard Powers",
+            "line": "It was like so, but wasn't.",
+            "author": "Galatea 2.2", 
+            "year": "1995"
+        },
+        {
+            "book": "Slaughterhouse-Five",
+            "line": "All this happened, more or less.",
+            "author": "Kurt Vonnegut", 
+            "year": "1969"
+        },
+        {
+            "book": "Their Eyes Were Watching God",
+            "line": "Ships at a distance have every man's wish on board.",
+            "author": "Zora Neale Hurston", 
+            "year": "1937"
+        },
+        {
+            "book": "The Voyage of the Dawn Treader",
+            "line": "There was a boy called Eustace Clarence Scrubb, and he almost deserved it.",
+            "author": "C. S. Lewis", 
+            "year": "1952"
+        },
+        {
+            "book": "The Old Man and the Sea",
+            "line": "He was an old man who fished alone in a skiff in the Gulf Stream and he had gone eighty-four days now without taking a fish.",
+            "author": "Ernest Hemingway", 
+            "year": "1952"
+        },
+        {
+            "book": "Fahrenheit 451",
+            "line": "It was a pleasure to burn.",
+            "author": "Ray Bradbury", 
+            "year": "1953"
+        },
+        {
+            "book": "Imaginative Qualities of Actual Things",
+            "line": "What if this young woman, who writes such bad poems, in competition with her husband, whose poems are equally bad, should stretch her remarkably long and well-made legs out before you, so that her skirt slips up to the tops of her stockings?",
+            "author": "Gilbert Sorrentino", 
+            "year": "1971"
+        },
+        {
+            "book": "Herzog",
+            "line": "If I am out of my mind, it's all right with me, thought Moses Herzog.",
+            "author": "Saul Bellow", 
+            "year": "1964"
+        },
+        {
+            "book": "Lord Jim",
+            "line": "He was an inch, perhaps two, under six feet, powerfully built, and he advanced straight at you with a slight stoop of the shoulders, head forward, and a fixed from-under stare which made you think of a charging bull.",
+            "author": "Joseph Conrad", 
+            "year": "1900"
+        },
+        {
+            "book": "The Go-Between",
+            "line": "The past is a foreign country; they do things differently there.",
+            "author": "L.P. Hartley", 
+            "year": "1953"
+        },
+        {
+            "book": "Blown Away",
+            "line": "Psychics can see the color of time it's blue.",
+            "author": "Ronald Sukenick", 
+            "year": "1986"
+        },
+        {
+            "book": "Changing Places",
+            "line": "High, high above the North Pole, on the first day of 1969, two professors of English Literature approached each other at a combined velocity of 1200 miles per hour.",
+            "author": "David Lodge", 
+            "year": "1975"
+        },
+        {
+            "book": "The Red Badge of Courage",
+            "line": "The cold passed reluctantly from the earth, and the retiring fogs revealed an army stretched out on the hills, resting.",
+            "author": "Stephen Crane", 
+            "year": "1895"
+        },
+        {
+            "book": "I Capture the Castle",
+            "line": "I write this sitting in the kitchen sink.",
+            "author": "Dodie Smith", 
+            "year": "1948"
+        },
+        {
+            "book": "One Hundred Years of Solitude",
+            "line": "Many years later, as he faced the firing squad, Colonel Aureliano Buendía was to remember that distant afternoon when his father took him to discover ice.",
+            "author": "Gabriel García Márquez", 
+            "year": "1967"
+        },
+        {
+            "book": "The Call of Cthulhu",
+            "line": "The most merciful thing in the world, I think, is the inability of the human mind to correlate all its contents. We live on a placid island of ignorance in the midst of black seas of infinity, and it was not meant that we should voyage far.",
+            "author": "H.P. Lovecraft", 
+            "year": "1928"
+        },
+        {
+            "book": "The Gunslinger",
+            "line": "The man in black fled across the desert, and the gunslinger followed.",
+            "author": "Stephen King", 
+            "year": "1982"
+        },
+        {
+            "book": "My Struggle",
+            "line": "For the heart, life is simple: it beats for as long as it can.",
+            "author": "Karl Ove Knausgård", 
+            "year": "2009"
+        },
+        {
+            "book": "The Hobbit",
+            "line": "In a hole in the ground there lived a hobbit.",
+            "author": "J.R.R. Tokien", 
+            "year": "1937"
+        },
+        {
+            "book": "",
+            "line": "",
+            "author": "", 
+            "year": ""
+        },
+        {
+            "book": "",
+            "line": "",
+            "author": "", 
+            "year": ""
+        },
+        {
+            "book": "",
+            "line": "",
+            "author": "", 
+            "year": ""
+        },
+        {
+            "book": "",
+            "line": "",
+            "author": "", 
+            "year": ""
+        },
+        {
+            "book": "",
+            "line": "",
+            "author": "", 
+            "year": ""
+        },
+        {
+            "book": "",
+            "line": "",
+            "author": "", 
+            "year": ""
+        },
+        {
+            "book": "",
+            "line": "",
+            "author": "", 
+            "year": ""
+        },
+        {
+            "book": "",
+            "line": "",
+            "author": "", 
+            "year": ""
+        },
+        {
+            "book": "",
+            "line": "",
+            "author": "", 
+            "year": ""
+        },
+        {
+            "book": "",
+            "line": "",
+            "author": "", 
+            "year": ""
         }
 	]
 }
