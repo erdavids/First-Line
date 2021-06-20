@@ -3,10 +3,7 @@
 
 A GraphQL API server for the opening lines of novels.
 
-[Try it out!](https://firstlineapi.com/graphql)
-
-
-
+[Try it out!](https://www.firstlineapi.com/graphql)
 
 
 ## Usage/Examples
