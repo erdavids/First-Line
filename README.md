@@ -5,6 +5,7 @@ A GraphQL API server for the opening lines of novels.
 
 [Try it out!](https://www.firstlineapi.com/graphql)
 
+Read about contributing below, or submit new lines [with this form](https://docs.google.com/forms/d/e/1FAIpQLSc4Qsz4TdLKLe59xrw8wPV1CGFsaTJNOKGHr489Hp80LAuFlg/viewform?usp=sf_link).
 
 ## Usage/Examples
 This API is still in a simple state, so these examples should cover pretty much all possibilities of it's use.
