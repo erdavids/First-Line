@@ -95,23 +95,8 @@ The app is hosted at https://firstlineapi.com/graphql, but if you would like to 
 
 ```bash
   git clone hhttps://github.com/erdavids/First-Line
-```
-
-Go to the project directory
-
-```bash
   cd First-Line
-```
-
-Install dependencies
-
-```bash
   npm install
-```
-
-Start the server
-
-```bash
   node server.js
 ```
 
