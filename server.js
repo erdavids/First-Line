@@ -9,6 +9,8 @@ var schema = buildSchema(`
   type Line {
     book: String
     line: String
+    author: String
+    year: String
   }
  
   type Query {
@@ -21,9 +23,11 @@ var schema = buildSchema(`
 `);
  
 class Line {
-  constructor({book, line}) {
+  constructor({book, line, author, year}) {
     this.book= book;
     this.line = line;
+    this.author = author;
+    this.year = year
   }
 }
  

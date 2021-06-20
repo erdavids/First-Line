@@ -1,11 +1,15 @@
 {
 	"lines": [{
 			"book": "1984",
-			"line": "Would you know?"
+			"line": "It was a bright cold day in April, and the clocks were striking thirteen.",
+            "author": "George Orwell",
+            "year": "1949"
 		},
-		{
-			"book": "Inverted World",
-			"line": "I had turned the age of six hundred and fifty miles"
-		}
+        {
+            "book": "Invisible Man",
+            "line": "I am an invisible man.",
+            "author": "Ralph Ellison",
+            "year": "1952"
+        }
 	]
 }
