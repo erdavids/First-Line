@@ -1,5 +1,5 @@
 
-# The First Line / [Landing Page](https://firstlineapi.com)
+# The First Line / [Landing Page](https://www.firstlineapi.com)
 
 A GraphQL API server for the opening lines of novels.
 
