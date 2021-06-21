@@ -174,64 +174,10 @@
             "year": "1937"
         },
         {
-            "book": "",
-            "line": "",
-            "author": "", 
-            "year": ""
-        },
-        {
-            "book": "",
-            "line": "",
-            "author": "", 
-            "year": ""
-        },
-        {
-            "book": "",
-            "line": "",
-            "author": "", 
-            "year": ""
-        },
-        {
-            "book": "",
-            "line": "",
-            "author": "", 
-            "year": ""
-        },
-        {
-            "book": "",
-            "line": "",
-            "author": "", 
-            "year": ""
-        },
-        {
-            "book": "",
-            "line": "",
-            "author": "", 
-            "year": ""
-        },
-        {
-            "book": "",
-            "line": "",
-            "author": "", 
-            "year": ""
-        },
-        {
-            "book": "",
-            "line": "",
-            "author": "", 
-            "year": ""
-        },
-        {
-            "book": "",
-            "line": "",
-            "author": "", 
-            "year": ""
-        },
-        {
-            "book": "",
-            "line": "",
-            "author": "", 
-            "year": ""
+            "book": "The Princess Bride",
+            "line": "This is my favorite book in all the world, though I have never read it.",
+            "author": "William Goldman", 
+            "year": "1973"
         }
 	]
 }
