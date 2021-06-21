@@ -17,6 +17,8 @@ query {
   getAll {
     line
     book
+    author
+    year
   }
 }
 ```
@@ -25,12 +27,17 @@ query {
     "getAll": [
       {
         "line": "It was a bright cold day in April, and the clocks were striking thirteen.",
-        "book": "1984"
+        "book": "1984",
+	"author": "George Orwell",
+	"year": "1949"
       },
       {
         "line": "I am an invisible man.",
-        "book": "Invisible Man"
-      }
+        "book": "Invisible Man",
+	"author": "Ralph Ellison,
+	"year": "1952"
+      },
+      ...
     ]
   }
 ```
@@ -55,7 +62,7 @@ query {
 ### Get Random Line 
 ```graphql
 query {
-	getRandomLine {
+  getRandomLine {
     line
     book
     author
