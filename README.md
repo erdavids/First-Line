@@ -34,7 +34,7 @@ query {
       {
         "line": "I am an invisible man.",
         "book": "Invisible Man",
-	"author": "Ralph Ellison,
+	"author": "Ralph Ellison",
 	"year": "1952"
       },
     ]
