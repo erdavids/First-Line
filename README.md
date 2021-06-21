@@ -55,15 +55,21 @@ query {
 ### Get Random Line 
 ```graphql
 query {
-  getRandomLine{
+	getRandomLine {
     line
+    book
+    author
+    year
   }
 }
 ```
 ```JSON
   "data": {
     "getRandomLine": {
-      "line": "It was a bright cold day in April, and the clocks were striking thirteen."
+      "line": "In a hole in the ground there lived a hobbit.",
+      "book": "The Hobbit",
+      "author": "J.R.R. Tokien",
+      "year": "1937"
     }
   }
 ```
