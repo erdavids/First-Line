@@ -37,6 +37,7 @@ query {
 	"author": "Ralph Ellison",
 	"year": "1952"
       },
+      ...
     ]
   }
 ```
